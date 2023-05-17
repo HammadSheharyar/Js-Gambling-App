@@ -1,0 +1,50 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+#todo-input {
+  border: 55px #5767cd;
+}
+h1 {
+  font-size: 36px;
+  margin-top: 50px;
+}
+form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 60%;
+  border-radius: 5px 0 0 5px;
+  border: 44px;
+  outline: none;
+}
+button[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 40%;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+li:last-child {
+  border-bottom: none;
+}
